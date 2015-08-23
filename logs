@@ -1,0 +1,51 @@
+2015-08-23T15:20:19.893421+00:00 heroku[api]: Enable Logplex by michal.vrtiak+heroku@gmail.com
+2015-08-23T15:20:19.893421+00:00 heroku[api]: Release v2 created by michal.vrtiak+heroku@gmail.com
+2015-08-23T15:22:21.443306+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-23T15:22:21.443327+00:00 heroku[slug-compiler]: HINT: This occurs when Heroku cannot detect the buildpack
+2015-08-23T15:22:21.443329+00:00 heroku[slug-compiler]:       to use for this application automatically.
+2015-08-23T15:22:21.443325+00:00 heroku[slug-compiler]: Slug compilation failed: no Cedar-supported app detected
+2015-08-23T15:22:21.443331+00:00 heroku[slug-compiler]: See https://devcenter.heroku.com/articles/buildpacks
+2015-08-23T15:33:24.519426+00:00 heroku[api]: Scale to web=1 by michal.vrtiak+heroku@gmail.com
+2015-08-23T15:33:24.629184+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-23T15:33:24.629254+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-23T15:33:24.571886+00:00 heroku[api]: Deploy c91c53d by michal.vrtiak+heroku@gmail.com
+2015-08-23T15:33:24.571886+00:00 heroku[api]: Release v3 created by michal.vrtiak+heroku@gmail.com
+2015-08-23T15:33:27.443745+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-08-23T15:33:30.006211+00:00 app[web.1]: npm ERR! Linux 3.13.0-57-generic
+2015-08-23T15:33:30.007457+00:00 app[web.1]: npm ERR! node v0.12.7
+2015-08-23T15:33:30.016028+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2015-08-23T15:33:30.007025+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-08-23T15:33:30.008284+00:00 app[web.1]: npm ERR! npm  v2.11.3
+2015-08-23T15:33:30.008398+00:00 app[web.1]: 
+2015-08-23T15:33:30.008617+00:00 app[web.1]: npm ERR! missing script: start
+2015-08-23T15:33:30.008878+00:00 app[web.1]: npm ERR! 
+2015-08-23T15:33:30.009023+00:00 app[web.1]: npm ERR! If you need help, you may report this error at:
+2015-08-23T15:33:30.015635+00:00 app[web.1]: 
+2015-08-23T15:33:30.009165+00:00 app[web.1]: npm ERR!     <https://github.com/npm/npm/issues>
+2015-08-23T15:33:30.016355+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-08-23T15:33:30.831459+00:00 heroku[web.1]: State changed from starting to crashed
+2015-08-23T15:33:30.832532+00:00 heroku[web.1]: State changed from crashed to starting
+2015-08-23T15:33:30.812956+00:00 heroku[web.1]: Process exited with status 1
+2015-08-23T15:33:33.116932+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-08-23T15:33:35.323907+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-08-23T15:33:35.324270+00:00 app[web.1]: npm ERR! node v0.12.7
+2015-08-23T15:33:35.324695+00:00 app[web.1]: npm ERR! npm  v2.11.3
+2015-08-23T15:33:35.324856+00:00 app[web.1]: 
+2015-08-23T15:33:35.325203+00:00 app[web.1]: npm ERR! missing script: start
+2015-08-23T15:33:35.325460+00:00 app[web.1]: npm ERR! If you need help, you may report this error at:
+2015-08-23T15:33:35.325341+00:00 app[web.1]: npm ERR! 
+2015-08-23T15:33:35.325588+00:00 app[web.1]: npm ERR!     <https://github.com/npm/npm/issues>
+2015-08-23T15:33:35.330947+00:00 app[web.1]: 
+2015-08-23T15:33:35.323189+00:00 app[web.1]: npm ERR! Linux 3.13.0-61-generic
+2015-08-23T15:33:35.331366+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2015-08-23T15:33:35.331555+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-08-23T15:33:36.091672+00:00 heroku[web.1]: State changed from starting to crashed
+2015-08-23T15:33:36.074547+00:00 heroku[web.1]: Process exited with status 1
+2015-08-23T15:33:36.609932+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ancient-sierra-3710.herokuapp.com request_id=ef8410b2-5737-4d5d-8d21-d3db3f4222c5 fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:33:38.272128+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ancient-sierra-3710.herokuapp.com request_id=b765ad36-c7a7-4351-abd4-fafe532a3f09 fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:34:18.501552+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ancient-sierra-3710.herokuapp.com request_id=0775d7bb-56ef-45a3-9574-77a8584aee61 fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:34:20.235420+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ancient-sierra-3710.herokuapp.com request_id=b8b06c0c-12ba-4c57-a304-71d68c7540c0 fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:34:21.095914+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ancient-sierra-3710.herokuapp.com request_id=84d72af1-334d-45a9-84fc-88fd7c8d4bcf fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:34:21.483739+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ancient-sierra-3710.herokuapp.com request_id=5b853554-64d8-47a3-a3bb-21eedfd4f4cd fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:34:28.640579+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ancient-sierra-3710.herokuapp.com request_id=596a862c-597f-4b3e-a1a3-6976c307d8cf fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
+2015-08-23T15:34:29.276863+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ancient-sierra-3710.herokuapp.com request_id=8ce58d3a-195f-417e-b942-a34a792e73c7 fwd="212.27.195.111" dyno= connect= service= status=503 bytes=
