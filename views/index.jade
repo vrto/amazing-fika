@@ -4,5 +4,9 @@ block content
   h1= title
   p Welcome to #{title}
   ul
-  each val in people
-    li= val
+  each person in people
+    li= person.name
+    input(type='checkbox', checked=person.vacation)
+  
+  button(onclick=fs.serverGetPairs()) Server Generate pairs
+  button(onclick=fs.clientGetPairs()) Client generate pairs
