@@ -10,3 +10,6 @@ block content
   
   button(onclick=fs.serverGetPairs()) Server Generate pairs
   button(onclick=fs.clientGetPairs()) Client generate pairs
+  
+  form(action='/pairs',method='post')
+    input(type='submit',value='Generate Pairs')
