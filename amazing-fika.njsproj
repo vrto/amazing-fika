@@ -32,6 +32,8 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="Procfile" />
+    <Compile Include="public\javascripts\client.js" />
+    <Compile Include="public\javascripts\jquery-2.1.4.min.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\user.js" />
     <Content Include="package.json" />
@@ -39,6 +41,7 @@
     <Content Include="README.md" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
+    <Content Include="views\pairs.jade" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />

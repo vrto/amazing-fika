@@ -16,6 +16,7 @@ exports.index = function (req, res) {
         fs: {
             serverGetPairs: log,
             clientGetPairs: log
-        }
+        },
+        scripts: ['client.js']
     });
 }
