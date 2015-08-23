@@ -13,3 +13,4 @@ packages/
 tools/packages/
 tests/Web/downloads/
 node_modules/
+.ntvs_analysis.dat
